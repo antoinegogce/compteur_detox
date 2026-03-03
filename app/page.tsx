@@ -82,7 +82,7 @@ export default function Home() {
             style={{ width: `${percent.toFixed(2)}%` }}
           />
         </div>
-        <span className="progress-text">{percent.toFixed(1)} %</span>
+        <span className="progress-text">{percent.toFixed(2)} %</span>
       </div>
     </div>
   );
